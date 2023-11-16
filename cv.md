@@ -15,3 +15,11 @@ I understand the value of self-motivation and the ability to learn independently
 Passion is my driving force, and I aspire to channel that passion into creating clean, efficient, and aesthetically pleasing code. I believe in the power of collaboration, and I am eager to engage with experienced professionals who can guide me while appreciating the fresh perspectives I bring to the table.
 
 In essence, I am not just a junior frontend developer seeking a job; I am a dedicated learner and a passionate coder ready to embrace challenges, absorb knowledge, and evolve with the ever-changing tech landscape. I am not here just to work; I am here to contribute, grow, and make a meaningful impact. Let's build something amazing together! 🚀
+
+## Skills:
+
+- Javascript
+- HTML
+- CSS
+- Git/Github
+- VS Code
