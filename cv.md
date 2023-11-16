@@ -45,3 +45,11 @@ const getVowelsCount = (str) => {
   return count;
 }
 ```
+
+## Education:
+
+### Courses:
+
+- [freeCodeCamp JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
+- [freeCodeCamp Responsive Web Design](https://www.freecodecamp.org/learn/2022/responsive-web-design/)
+- [Udemy The Complete Web Developer in 2023: Zero to Mastery](https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/)
