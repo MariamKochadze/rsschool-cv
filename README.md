@@ -1,1 +1,3 @@
-# You can find my CV here: https://github.com/MariamKochadze/rsschool-cv/cv
+# Markdown CV
+
+[CV Link](https://mariamkochadze.github.io/rsschool-cv/cv) : https://mariamkochadze.github.io/rsschool-cv/cv
