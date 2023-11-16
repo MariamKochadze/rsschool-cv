@@ -1,1 +1,1 @@
-# You can find my CV here:
+# You can find my CV here: https://github.com/MariamKochadze/rsschool-cv/cv
