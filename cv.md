@@ -23,3 +23,25 @@ In essence, I am not just a junior frontend developer seeking a job; I am a dedi
 - CSS
 - Git/Github
 - VS Code
+
+## Code examples:
+
+`Return the number (count) of vowels in the given string.
+
+We will consider a, e, i, o, u as vowels for this Kata (but not y).
+
+The input string will only consist of lower case letters and/or spaces.`
+
+```
+const getVowelsCount = (str) => {
+  let count = 0;
+  const vowels = ['a', 'e', 'i', 'o', 'u'];
+
+  for (let i = 0; i < str.length; i++) {
+    const letter = str[i];
+    if(vowels.includes(letter)) count++;
+  }
+
+  return count;
+}
+```
