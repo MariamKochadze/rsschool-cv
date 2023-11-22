@@ -5,7 +5,135 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mariam Kochadze</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&family=Noto+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="wrapper">
+      <header>
+        <nav class="header__menu">
+          <ul class="header__menu-list">
+            <li><a href="#contact-info">Contact info</a></li>
+            <li><a href="#summary">Summary</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#code-examples">Code examples</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#languages">Languages</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section class="section__contact-info" id="contact-info">
+          <h2 class="section__heading">contact info</h2>
+          <ul>
+            <li>mobile number: +995 555 11 00 14</li>
+            <li>E-mail: kochadzemariam80@gmail.com</li>
+            <li>
+              linkdin: https://www.linkedin.com/in/mariam-kochadze-2b7599207/
+            </li>
+          </ul>
+        </section>
+
+        <section class="section__summary" id="summary">
+          <h2 class="section__heading">summary</h2>
+
+          <p>
+            Greetings! 👋 As a junior frontend developer, my goal is to
+            seamlessly blend creativity with functionality to craft immersive
+            and user-friendly web experiences. My fervor for coding is fueled by
+            the desire to contribute meaningfully to the digital landscape while
+            constantly expanding my skill set. I understand the value of
+            self-motivation and the ability to learn independently. Being a
+            junior developer doesn't mean waiting for instructions; it means
+            proactively seeking knowledge from diverse sources and adapting
+            swiftly to new challenges. I am not just looking for a role; I am
+            seeking a platform to showcase my potential, to absorb knowledge
+            like a sponge, and to contribute innovative solutions to real-world
+            problems. Passion is my driving force, and I aspire to channel that
+            passion into creating clean, efficient, and aesthetically pleasing
+            code. I believe in the power of collaboration, and I am eager to
+            engage with experienced professionals who can guide me while
+            appreciating the fresh perspectives I bring to the table. In
+            essence, I am not just a junior frontend developer seeking a job; I
+            am a dedicated learner and a passionate coder ready to embrace
+            challenges, absorb knowledge, and evolve with the ever-changing tech
+            landscape. I am not here just to work; I am here to contribute,
+            grow, and make a meaningful impact. Let's build something amazing
+            together! 🚀
+          </p>
+        </section>
+        <section class="section__skills" id="skills">
+          <h2 class="section__heading">skills</h2>
+          <ul>
+            <li>Javascript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Git/Github</li>
+            <li>VS Code</li>
+          </ul>
+        </section>
+        <section class="section__code-examples" id="code-examples">
+          <h2 class="section__heading">code examples</h2>
+          <p>
+            Return the number (count) of vowels in the given string. We will
+            consider a, e, i, o, u as vowels for this Kata (but not y). The
+            input string will only consist of lower case letters and/or spaces.
+          </p>
+          <pre>
+            const getVowelsCount = (str) => {
+                let count = 0;
+                const vowels = ['a', 'e', 'i', 'o', 'u'];
+            
+                for (let i = 0; i < str.length; i++) {
+                const letter = str[i];
+                if(vowels.includes(letter)) count++;
+                }
+            
+                return count;
+            }
+          </pre>
+        </section>
+        <section class="section__education" id="education">
+          <h2 class="section__heading">education</h2>
+          <ul>
+            <li>freeCodeCamp JavaScript Algorithms and Data Structures</li>
+            <li>freeCodeCamp Responsive Web Design</li>
+            <li>Udemy The Complete Web Developer in 2023: Zero to Mastery</li>
+          </ul>
+        </section>
+        <section class="section__languages" id="languages">
+          <h2 class="section__heading">languages</h2>
+          <ul>
+            <li>English - B2</li>
+            <li>Georgian - native</li>
+            <li>Russian - Basic</li>
+          </ul>
+        </section>
+      </main>
+      <footer>
+        <ul class="footer__list">
+          <li>
+            <a href="https://github.com/MariamKochadze"
+              ><img
+                class="footer__icon"
+                src="./images/github_con.svg"
+                alt="github icon"
+            /></a>
+          </li>
+          <li><p>2023</p></li>
+          <li>
+            <a href="https://rs.school/js-en/"
+              ><img
+                class="footer__icon"
+                src="./images/rs_icon.svg"
+                alt="rsschool icon"
+            /></a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+  </body>
 </html>
