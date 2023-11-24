@@ -32,17 +32,28 @@
             alt="profile picture"
           />
 
-          <h1 class="profile__text">Mariam Kochadze</h1>
+          <h1 class="profile__name__surname">mariam kochadze</h1>
         </div>
       </header>
       <main>
         <section class="section__contact-info" id="contact-info">
           <h2 class="section__heading">contact info</h2>
           <ul>
-            <li>mobile number: +995 555 11 00 14</li>
-            <li>E-mail: kochadzemariam80@gmail.com</li>
             <li>
-              linkdin: https://www.linkedin.com/in/mariam-kochadze-2b7599207/
+              <img class="icon" src="./icons/mobile.png" alt="mobile icon" />
+              <p>+995 555 11 00 14</p>
+            </li>
+            <li>
+              <img class="icon" src="./icons/gmail.png" alt="gmail icon" />
+              <p>kochadzemariam80@gmail.com</p>
+            </li>
+            <li id="linkedin-github-item">
+              <a href="https://www.linkedin.com/in/mariam-kochadze-2b7599207/"
+                ><img class="icon" src="./icons/linkedin.png" alt=""
+              /></a>
+              <a href="https://github.com/MariamKochadze"
+                ><img class="icon" src="./icons/github.png" alt="github icon"
+              /></a>
             </li>
           </ul>
         </section>
@@ -92,18 +103,20 @@
             consider a, e, i, o, u as vowels for this Kata (but not y). The
             input string will only consist of lower case letters and/or spaces.
           </p>
-          <pre>
-            const getVowelsCount = (str) => {
-                let count = 0;
-                const vowels = ['a', 'e', 'i', 'o', 'u'];
-            
-                for (let i = 0; i < str.length; i++) {
-                const letter = str[i];
-                if(vowels.includes(letter)) count++;
+          <pre class="code__block">
+              <code class="code__vowels">
+                const getVowelsCount = (str) => {
+                    let count = 0;
+                    const vowels = ['a', 'e', 'i', 'o', 'u'];
+                
+                    for (let i = 0; i < str.length; i++) {
+                    const letter = str[i];
+                    if(vowels.includes(letter)) count++;
+                    }
+                
+                    return count;
                 }
-            
-                return count;
-            }
+            </code>
           </pre>
         </section>
         <section class="section__education" id="education">
@@ -129,16 +142,16 @@
             <a href="https://github.com/MariamKochadze"
               ><img
                 class="footer__icon"
-                src="./images/github_con.svg"
+                src="./icons/github_con.svg"
                 alt="github icon"
             /></a>
           </li>
-          <li><p>&copy;2023</p></li>
+          <li><p>Copyright &copy;2023 All rights reserved</p></li>
           <li>
             <a href="https://rs.school/js-en/"
               ><img
                 class="footer__icon"
-                src="./images/rs_icon.svg"
+                src="./icons/rs_icon.svg"
                 alt="rsschool icon"
             /></a>
           </li>
