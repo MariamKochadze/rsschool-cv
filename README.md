@@ -1,3 +1,3 @@
 # Markdown CV
 
-[CV Markdown Link](https://github.com/MariamKochadze/rsschool-cv/tree/master) 
+[CV Markdown Link](https://mariamkochadze.github.io/rsschool-cv/) : https://mariamkochadze.github.io/rsschool-cv/
